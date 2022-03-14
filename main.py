@@ -63,7 +63,7 @@ def parse_rss(url):
 async def loop():
     global CHECKED_IDS
     for url in SITES:
-        title, favicon, domain, articles = parse_rss(url)
+        title, domain, favicon, articles = parse_rss(url)
         for article in articles:
             if article['guid'] not in CHECKED_IDS:
                 CHECKED_IDS.append(article['guid'])
