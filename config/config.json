@@ -1,0 +1,13 @@
+{
+    "sites": [
+        "https://www.gizmodo.jp/index.xml"
+    ],
+    "DISCORD_TOKEN": "YOUR_DISCORD_BOT_TOKEN",
+    "CHANNEL_ID": -1,
+    "Ads": [
+        {
+            "title": "You can add your custom Ads",
+            "description": "[Link](https://example.com)"
+        }
+    ]
+}
